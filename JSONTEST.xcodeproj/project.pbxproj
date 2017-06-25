@@ -12,7 +12,6 @@
 		CBDA01FB1EF8792000EB6F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDA01F91EF8792000EB6F98 /* Main.storyboard */; };
 		CBDA01FD1EF8792000EB6F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDA01FC1EF8792000EB6F98 /* Assets.xcassets */; };
 		CBDA02001EF8792000EB6F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBDA01FE1EF8792000EB6F98 /* LaunchScreen.storyboard */; };
-		CBDA02081EF8795C00EB6F98 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA02071EF8795C00EB6F98 /* Movie.swift */; };
 		CBDA020A1EF87A9400EB6F98 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDA02091EF87A9400EB6F98 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +23,6 @@
 		CBDA01FC1EF8792000EB6F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBDA01FF1EF8792000EB6F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBDA02011EF8792000EB6F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBDA02071EF8795C00EB6F98 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CBDA02091EF87A9400EB6F98 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../../Desktop/SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +63,6 @@
 				CBDA01FC1EF8792000EB6F98 /* Assets.xcassets */,
 				CBDA01FE1EF8792000EB6F98 /* LaunchScreen.storyboard */,
 				CBDA02011EF8792000EB6F98 /* Info.plist */,
-				CBDA02071EF8795C00EB6F98 /* Movie.swift */,
 			);
 			path = JSONTEST;
 			sourceTree = "<group>";
@@ -143,7 +140,6 @@
 			files = (
 				CBDA01F81EF8792000EB6F98 /* ViewController.swift in Sources */,
 				CBDA01F61EF8792000EB6F98 /* AppDelegate.swift in Sources */,
-				CBDA02081EF8795C00EB6F98 /* Movie.swift in Sources */,
 				CBDA020A1EF87A9400EB6F98 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +316,7 @@
 				CBDA02061EF8792000EB6F98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
